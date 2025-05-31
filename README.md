@@ -21,4 +21,4 @@ Dicas de carreira e inserção na área de tecnologia
 
 Consolidar conhecimentos iniciais em front-end e criar minha primeira página web do zero, com boas práticas e foco em acessibilidade, responsividade e organização de código.
 
-Em breve, atualizarei este repositório com exercícios, anotações e projetos criados durante o curso. 
+Em breve, atualizarei este repositório com um projeto criado durante o curso. 
