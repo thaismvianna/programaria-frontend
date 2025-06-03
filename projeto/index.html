@@ -18,30 +18,38 @@
 
     <img src="/projeto/imagens/testecapa.jpeg" alt="imagem da capa do site" width="500">
 
-    <h2>Nossos Cursos</h2>
-    <p>
-        Colocar os cursos, como: 
-        <nav>
-            <ul>
-                <li>Informática básica</li>
-                <li>Design</li>
-                <li>Lógica de Programação</li>
-                <li>HTML e CSS</li>
-                <li>Front-end Completo</li>
-                <li>Back-end Completo</li>
-                <li>Fullstack</li>
-                <li>Dados</li>
-            </ul>
-        </nav>
-    </p>
+        <h2>Nossos Cursos</h2>
+    <div class="cursos">
+    <div class="curso">
+        <img src="/projeto/imagens/cursoinformatica.png" alt="Curso de informática básica">
+        <p>Informática básica</p>
+    </div>
+    <div class="curso">
+        <img src="/projeto/imagens/cursodesign.png" alt="Curso de Design">
+        <p>Design</p>
+    </div>
+    <div class="curso">
+        <img src="/projeto/imagens/cursohtmlcss.png" alt="Curso de HTML e CSS">
+        <p>HTML e CSS</p>
+    </div>
+    <div class="curso">
+        <img src="/projeto/imagens/cursofrontend.png" alt="Curso de Front-end">
+        <p>Front-end Completo</p>
+    </div>
+    <div class="curso">
+        <img src="/projeto/imagens/cursobackend.png" alt="Curso de Back-end">
+        <p>Back-end Completo</p>
+    </div>
+    <div class="curso">
+        <img src="/projeto/imagens/curofullstack.png" alt="Curso Fullstack">
+        <p>Fullstack</p>
+    </div>
+    <div class="curso">
+        <img src="/projeto/imagens/cursodados.png" alt="Curso de Dados">
+        <p>Dados</p>
+    </div>
+    </div>
 
-    <img src="/projeto/imagens/cursodesign.png" alt="imagem do curso de design" width="200">
-    <img src="/projeto/imagens/curofullstack.png" alt="imagem do curso de fullstack" width="200">
-    <img src="/projeto/imagens/cursobackend.png" alt="imagem do curso de back-end" width="150">
-    <img src="/projeto/imagens/cursodados.png" alt="imagem do curso de dados" width="200">
-    <img src="/projeto/imagens/cursofrontend.png" alt="imagem do curso de front-end" width="200">
-     <img src="/projeto/imagens/cursohtmlcss.png" alt="imagem do curso de html e css" width="200">
-    <img src="/projeto/imagens/cursoinformatica.png" alt="imagem do curso de informatica" width="200">
 
     <h2>Eventos e Workshops</h2>
     <p>
@@ -49,23 +57,48 @@
         Workshops como: Aumente suas sotf skills
     </p>
 
-    <img src="/projeto/imagens/testeencontro.jpeg" alt="imagem dos eventos" width="500">
-
     <h2>Depoimentos</h2>
-    <p>
-        Depoimentos de alunos ficticios
-    </p>
+    <img src="/projeto/imagens/testeencontro.jpeg" alt="imagem dos eventos" width="500" class="img-depoimentos">
+
+    <div class="depoimentos">
+    <div class="depoimento">
+        <h3>Maria Luzia</h3>
+        <p>"O curso de front-end foi transformador! Me ajudou a ter certeza de qual área seguir e como devo me empenhar para isso."</p>
+    </div>
+    <div class="depoimento">
+        <h3>João Souza</h3>
+        <p>"Nunca imaginei que aprender tecnologia pudesse ser tão acessível e acolhedor. Obrigado, AprenderTech!"</p>
+    </div>
+    <div class="depoimento">
+        <h3>Giovanna Oliveira</h3>
+        <p>"Participei de um workshop de soft skills e saí de lá revigorada, com outra visão. Palestrante incrível!"</p>
+    </div>
+    </div>
 
     <img src="/projeto/imagens/testedepoi.jpeg" alt="imagem dos depoimentos" width="500">
 
-    <h2>Increva-se</h2>
-    <p>
-        Criar um formulário de incrição, com nome, e-mail, cursos ou eventos/workshops
-    </p>
+    <h2>Quer participar dessa jornada com a gente? Inscreva-se!</h2>
+    <form class="form-inscricao" id="formInscricao">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="tipo">Deseja se inscrever em:</label>
+    <select id="tipo" name="tipo">
+        <option value="curso">Cursos</option>
+        <option value="evento">Eventos / Workshops</option>
+    </select>
+
+  <button type="submit">Enviar</button>
+</form>
+
 
     <footer>
     © 2025 AprenderTech - Educação para todos
   </footer>
   
+  <script src="script.js"></script>
 </body>
 </html>

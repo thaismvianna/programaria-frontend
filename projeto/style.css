@@ -14,3 +14,66 @@ header {
 p {
     background-color: rgb(230, 219, 219);
 }
+
+.cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.curso {
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+    width: 150px;
+    text-align: center;
+}
+
+.curso img {
+    width: 100%;
+    height: 120px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.curso p {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.depoimentos {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.img-depoimentos {
+    width: 35%;
+    margin: 10px auto 30px;
+    display: block;
+    border-radius: 10px;
+}
+
+.depoimento {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.depoimento h3 {
+    font-size: 18px;
+    margin: 10px 0px 5px;
+}
+
+.depoimento p {
+    font-size: 16px;
+}
+
+.form-inscricao {
+    margin: 30px auto;
+    background-color: rgb(235, 229, 222);
+    padding: 10px;
+    border-radius: 8px;
+}
