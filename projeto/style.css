@@ -15,6 +15,27 @@ p {
     background-color: rgb(230, 219, 219);
 }
 
+.capa {
+  background-image: url('imagens/testecapa.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  height: 380px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.capa h1 {
+    font-size: 40px;
+}
+
+.capa p {
+    font-size: 30px;
+}
+
+
 .cursos {
     display: flex;
     flex-wrap: wrap;
